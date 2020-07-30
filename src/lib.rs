@@ -17,7 +17,6 @@ impl Worker {
 				println!("Worker {} has been given a job. Executing...", id);
 				job();
 			}
-			receiver;
 		});
 
 		Worker {id, thread}
